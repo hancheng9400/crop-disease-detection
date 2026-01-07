@@ -1,0 +1,21 @@
+# Python相关
+__pycache__/
+*.py[cod]
+*.pyd
+env/
+venv/
+.venv/
+
+# MindSpore模型权重（如需上传权重可删除这行，建议用Git LFS管理大文件）
+图像识别/ckpt/
+
+# LLaMA-Factory相关（日志、输出文件）
+LLaMA-Factory/log/
+LLaMA-Factory/output/
+
+# 训练曲线图（可选过滤）
+图像识别/plots/
+
+# 系统文件
+.DS_Store
+Thumbs.db
